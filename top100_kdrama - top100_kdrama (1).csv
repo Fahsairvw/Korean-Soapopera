@@ -1,0 +1,101 @@
+Rank,Name,Year,Aired On,No of Episode,Network,Duration(minute),Content Rating,Cast,Genre,Rating
+#1,Move to Heaven,2021,Friday,10,Netflix,52,18+ Restricted (violence & profanity),"Lee Je Hoon, Tang Jun Sang, Hong Seung Hee, Jung Suk Yong, Jung Young Joo, Lee Moon Shik",Life,9.2
+#2,Weak Hero Class 1,2022,Friday,8,Viki,40,18+ Restricted (violence & profanity),"Park Ji Hoon, Choi Hyun Wook, Hong Kyung, Kim Su Gyeom, Lee Yeon, Shin Seung Ho",Action,9.1
+#3,Hospital Playlist Season 2,2021,Thursday,12,Netflix,100,15+ - Teens 15 or older,"Jo Jung Suk, Yoo Yeon Seok, Jung Kyung Ho, Kim Dae Myung, Jeon Mi Do, Shin Hyun Bin",Life,9.1
+#4,Flower of Evil,2020," Wednesday, Thursday",16,tvN,70,15+ - Teens 15 or older,"Lee Joon Gi, Moon Chae Won, Jang Hee Jin, Seo Hyun Woo, Nam Ki Ae, Son Jong Hak",Thriller,9.1
+#5,Hospital Playlist,2020,Thursday,12,Netflix,90,15+ - Teens 15 or older,"Jo Jung Suk, Yoo Yeon Seok, Jung Kyung Ho, Kim Dae Myung, Jeon Mi Do, Shin Hyun Bin",Life,9.1
+#6,Alchemy of Souls,2022," Saturday, Sunday",20,Netflix,80,15+ - Teens 15 or older,"Lee Jae Wook, Jung So Min, Hwang Min Hyun, Shin Seung Ho, Yoo  Joon Sang, Oh Na Ra",Fantasy,9.1
+#7,Reply 1988,2015," Friday, Saturday",20,tvN,95,15+ - Teens 15 or older,"Lee Hye Ri, Go Kyung Pyo, Ryu Joon Yeol, Park Bo Gum, Lee Dong Hwi, Sung Dong Il",Life,9.1
+#8,My Mister,2018," Wednesday, Thursday",16,tvN,77,15+ - Teens 15 or older,"Lee Sun Kyun, IU, Park Ho San, Song Sae Byuk, Lee Ji Ah, Kim Young Min",Psychological,9
+#9,Under the Queen's Umbrella,2022," Saturday, Sunday",16,Netflix,70,15+ - Teens 15 or older,"Kim Hye Soo, Kim Hae Sook, Choi Won Young, Kim Eui Sung, Moon Sang Min, Ok Ja Yeon",Historical,9
+#10,Prison Playbook,2017," Wednesday, Thursday",16,Netflix,92,15+ - Teens 15 or older,"Park Hae Soo, Jung Kyung Ho, Krystal Jung, Im Hwa Young, Ye Soo Jung, Kim Kyung Nam",Life,9
+#11,The Glory Part 2,2023,Friday,8,Netflix,55,18+ Restricted (violence & profanity),"Song Hye Kyo, Lee Do Hyun, Im Ji Yeon, Yeom Hye Ran, Park Sung Hoon, Jung Sung Il",Drama,9
+#12,Mr. Queen,2020," Saturday, Sunday",20,tvN,75,15+ - Teens 15 or older,"Shin Hye Sun, Kim Jung Hyun, Bae Jong Ok, Kim Tae Woo, Jo Yun Hee, Seol In Ah",Comedy,9
+#13,Mother,2018," Wednesday, Thursday",16,tvN,63,15+ - Teens 15 or older,"Lee Bo Young, Heo Yool, Lee Hye Young, Go Sung Hee, Lee Jae Yoon, Go Bo Gyeol",Melodrama,9
+#14,Dr. Romantic Season 3,2023," Friday, Saturday",16,SBS,70,15+ - Teens 15 or older,"Han Seok Kyu, Lee Sung Kyung, Ahn Hyo Seop, Kim Joo Heon, So Ju Yeon, Jin Kyung",Medical,9
+#15,Crash Landing on You,2019," Sunday, Saturday",16,Netflix,85,15+ - Teens 15 or older,"Hyun Bin, Son Ye Jin, Seo Ji Hye, Kim Jung Hyun, Yang Kyung Won, Lee Shin Young",Romance,9
+#16,Alchemy of Souls Season 2,2022," Saturday, Sunday",10,Netflix,81,15+ - Teens 15 or older,"Lee Jae Wook, Go Youn Jung, Hwang Min Hyun, Shin Seung Ho, Yoo  Joon Sang, Oh Na Ra",Fantasy,9
+#17,Extraordinary Attorney Woo,2022," Wednesday, Thursday",16,Netflix,77,15+ - Teens 15 or older,"Park Eun Bin, Kang Tae Oh, Kang Ki Young, Jeon Bae Soo, Baek Ji Won, Jin Kyung",Law,8.9
+#18,Vincenzo,2021," Saturday, Sunday",20,Netflix,85,15+ - Teens 15 or older,"Song Joong Ki, Jeon Yeo Been, Ok Taec Yeon, Kim Yeo Jin, Jo Han Chul, Kwak Dong Yeon",Comedy,8.9
+#19,Navillera,2021," Monday, Tuesday",12,Netflix,86,15+ - Teens 15 or older,"Park In Hwan, Song Kang, Na Moon Hee, Hong Seung Hee, Kim Tae Hoon, Yoon  Ji Hye",Life,8.9
+#20,It's Okay to Not Be Okay,2020," Saturday, Sunday",16,Netflix,87,15+ - Teens 15 or older,"Kim Soo Hyun, Seo Yea Ji, Oh Jung Se, Park Gyu Young, Jang Young Nam, Kim Chang Wan",Psychological,8.9
+#21,Signal,2016," Friday, Saturday",16,tvN,88,15+ - Teens 15 or older,"Lee Je Hoon, Kim Hye Soo, Jo Jin Woong, Kim Won Hae, Lee Yoo Joon, Jang Hyun Sung",Thriller,8.9
+#22,The Glory,2022,Friday,8,Netflix,89,18+ Restricted (violence & profanity),"Song Hye Kyo, Lee Do Hyun, Im Ji Yeon, Yeom Hye Ran, Park Sung Hoon, Jung Sung Il",Drama,8.9
+#23,The Good Bad Mother,2023," Wednesday, Thursday",14,"Netflix,",90,15+ - Teens 15 or older,"Ra Mi Ran, Lee Do Hyun, Ahn Eun Jin, Yoo In Soo, Choi Moo Sung, Jung Woong In",Life,8.9
+#24,Happiness,2021," Friday, Saturday",12,tvN,91,15+ - Teens 15 or older,"Han Hyo Joo, Park Hyung Sik, Jo  Woo Jin, Lee Joon Hyuk, Park Joo Hee, Baek Hyun Jin",Sci-Fi,8.9
+#25,Kingdom Season 2,2020,Friday,6,Netflix,92,18+ Restricted (violence & profanity),"Joo Ji Hoon, Bae Doo Na, Kim Sung Gyu, Ryu Seung Ryong, Kim  Sang Ho, Jun Suk Ho",Thriller,8.9
+#26,Mr. Sunshine,2018," Saturday, Sunday",24,"Netflix,",93,15+ - Teens 15 or older,"Lee Byung Hun, Kim Tae Ri, Yoo Yeon Seok, Byun Yo Han, Kim Min Jung, Kim Gab Soo",Historical,8.9
+#27,Taxi Driver Season 2,2023," Friday, Saturday",16,SBS,94,18+ Restricted (violence & profanity),"Lee Je Hoon, Kim Eui Sung, Pyo Ye Jin, Jang Hyuk Jin, Bae Yoo Ram, Shin Jae Ha",Action,8.9
+#28,Tomorrow,2022," Friday, Saturday",16,Netflix,95,15+ - Teens 15 or older,"Kim Hee Sun, Rowoon, Lee Soo Hyuk, Yun Ji On, Kim Hae Sook, Kim Nu Ri",Action,8.9
+#29,Tale of the Nine-Tailed 1938,2023," Saturday, Sunday",12,tvN,96,15+ - Teens 15 or older,"Lee Dong Wook, Kim So Yeon, Kim Bum, Ryu Kyung Soo, Kim Yong Ji, Hwang Hee",Fantasy,8.9
+#30,Healer,2014," Monday, Tuesday",20,KBS2,97,15+ - Teens 15 or older,"Ji Chang Wook, Park Min Young, Yoo Ji Tae, Kim  Mi Kyung, Park Sang Won, Do Ji Won",Action,8.8
+#31,Mouse,2021," Wednesday, Thursday",20,tvN,98,18+ Restricted (violence & profanity),"Lee Seung Gi, Lee Hee Joon, Park Ju Hyun, Kyung Soo Jin, Woo Ji Hyun, Ahn Jae Wook",Thriller,8.8
+#32,SKY Castle,2018," Friday, Saturday",20,jTBC,99,15+ - Teens 15 or older,"Yeom Jung Ah, Lee Tae Ran, Yoon Se Ah, Oh Na Ra, Kim Seo Hyung, Jung Joon Ho",Drama,8.8
+#33,The Red Sleeve,2021," Friday, Saturday",17,Viki,100,15+ - Teens 15 or older,"Lee Jun Ho, Lee Se Young, Kang Hoon, Lee Deok Hwa, Park Ji Young, Jang Hee Jin",Melodrama,8.8
+#34,Stranger,2017," Saturday, Sunday",16,Netflix,101,15+ - Teens 15 or older,"Cho Seung Woo, Bae Doo Na, Lee Joon Hyuk, Yoo Jae Myung, Shin Hye Sun, Choi Jae Woong",Thriller,8.8
+#35,Twenty-Five Twenty-One,2022," Saturday, Sunday",16,Netflix,102,15+ - Teens 15 or older,"Kim Tae Ri, Nam Joo Hyuk, Bona, Choi Hyun Wook, Lee Joo Myung, Seo Jae Hee",Melodrama,8.8
+#36,The Uncanny Counter,2020," Saturday, Sunday",16,Netflix,103,15+ - Teens 15 or older,"Cho Byeong Kyu, Yoo  Joon Sang, Kim Se Jeong, Yeom Hye Ran, Ahn Suk Hwan, Lee Hong Nae",Action,8.8
+#37,Goblin,2016," Friday, Saturday",16,tvN,104,15+ - Teens 15 or older,"Gong Yoo, Kim Go Eun, Lee Dong Wook, Yoo In Na, Yook Sung Jae, Lee El",Fantasy,8.8
+#38,D.P.,2021,Friday,6,Netflix,105,15+ - Teens 15 or older,"Jung Hae In, Koo Kyo Hwan, Kim Sung Kyun, Son Suk Ku, Hong Kyung, Jo Hyun Chul",Action,8.8
+#39,Taxi Driver,2021," Friday, Saturday",16,SBS,106,18+ Restricted (violence & profanity),"Lee Je Hoon, Esom, Kim Eui Sung, Pyo Ye Jin, Cha Ji Yeon, Jang Hyuk Jin",Action,8.8
+#40,Kingdom,2019,Friday,6,Netflix,107,18+ Restricted (violence & profanity),"Joo Ji Hoon, Ryu Seung Ryong, Bae Doo Na, Kim Sung Gyu, Kim Chan Yi, Kim  Sang Ho",Thriller,8.8
+#41,Missing,2022," Monday, Tuesday",14,tvN,108,15+ - Teens 15 or older,"Go Soo, Heo Joon Ho, Ahn So Hee, Ha Joon, Lee Jung Eun, Kim Dong Hwi",Thriller,8.8
+#42,Weightlifting Fairy Kim Bok Joo,2016," Wednesday, Thursday",16,MBC,109,15+ - Teens 15 or older,"Lee Sung Kyung, Nam Joo Hyuk, Lee Jae Yoon, Kyung Soo Jin, Cho Hye Jung, Lee Joo Young",Life,8.8
+#43,Six Flying Dragons,2015," Monday, Tuesday",50,SBS,110,15+ - Teens 15 or older,"Yoo Ah In, Kim Myung Min, Shin Se Kyung, Byun Yo Han, Yoon Kyun Sang, Chun Ho Jin",Action,8.8
+#44,D.P. Season 2,2023,Friday,6,Netflix,111,15+ - Teens 15 or older,"Jung Hae In, Koo Kyo Hwan, Kim Sung Kyun, Son Suk Ku, Kim Ji Hyun, Ji Jin Hee",Action,8.8
+#45,Youth of May,2021," Monday, Tuesday",12,KBS2,112,15+ - Teens 15 or older,"Lee Do Hyun, Go Min Si, Lee Sang Yi, Geum Sae Rok, Oh Man Suk, Uhm Hyo Sub",Melodrama,8.8
+#46,Life on Mars,2018," Saturday, Sunday",16,OCN,113,15+ - Teens 15 or older,"Jung Kyung Ho, Park Sung Woong, Go Ah Sung, Oh Dae Hwan, Noh Jong Hyun, Jun Suk Ho",Action,8.8
+#47,The Devil Judge,2021," Saturday, Sunday",16,tvN,114,15+ - Teens 15 or older,"Ji Sung, Kim Min Jung, Park Jin Young, Park Gyu Young, Jeon Chae Eun, Kim Jae Kyung",Mystery,8.8
+#48,Through the Darkness,2022," Friday, Saturday",12,SBS,115,18+ Restricted (violence & profanity),"Kim Nam Gil, Jin Seon Kyu, Kim So Jin, Ryeoun, Lee Dae Yeon, Kim Won Hae",Thriller,8.8
+#49,Racket Boys,2021," Monday, Tuesday",16,Netflix,116,15+ - Teens 15 or older,"Kim Sang Kyung, Oh Na Ra, Tang Jun Sang, Son Sang Yeon, Choi Hyun Wook, Kim Kang Hoon",Life,8.7
+#50,Beyond Evil,2021," Friday, Saturday",16,jTBC,117,15+ - Teens 15 or older,"Shin Ha Kyun, Yeo Jin Goo, Choi Dae Hoon, Kim Shin Rok, Choi Sung Eun, Choi Jin Ho",Thriller,8.7
+#51,Dr. Romantic Season 2,2020," Monday, Tuesday",16,SBS,118,15+ - Teens 15 or older,"Han Seok Kyu, Ahn Hyo Seop, Lee Sung Kyung, Kim Joo Heon, Shin Dong Wook, So Ju Yeon",Medical,8.7
+#52,The Penthouse,2020," Monday, Tuesday",21,SBS,119,15+ - Teens 15 or older,"Lee Ji Ah, Kim So Yeon, Eugene, Uhm Ki Joon, Bong Tae Kyu, Shin Eun Kyung",Drama,8.7
+#53,Dear My Friends,2016," Friday, Saturday",16,tvN,120,15+ - Teens 15 or older,"Go Hyun Jung, Kim Hye Ja, Na Moon Hee, Go Doo Shim, Park Won Sook, Youn Yuh Jung",Life,8.7
+#54,Hometown Cha-Cha-Cha,2021," Saturday, Sunday",16,Netflix,121,15+ - Teens 15 or older,"Shin Min Ah, Kim Seon Ho, Lee Sang Yi, In Gyo Jin, Lee Bong Ryun, Jo Han Chul",Life,8.7
+#55,Arthdal Chronicles Part 3,2019," Saturday, Sunday",6,Netflix,122,15+ - Teens 15 or older,"Song Joong Ki, Jang Dong Gun, Kim Ji Won, Kim Ok Bin, Kim Sung Cheol, Kim Eui Sung",Historical,8.7
+#56,Arthdal Chronicles Part 2,2019," Saturday, Sunday",6,Netflix,123,15+ - Teens 15 or older,"Song Joong Ki, Jang Dong Gun, Kim Ji Won, Kim Ok Bin, Kim Eui Sung, Park Hae Joon",Historical,8.7
+#57,The Guest,2018," Wednesday, Thursday",16,OCN,124,18+ Restricted (violence & profanity),"Kim Dong Wook, Kim Jae Wook, Jung Eun Chae, Lee Won Jong, Park Ho San, Ahn Nae Sang",Thriller,8.7
+#58,Defendant,2017," Monday, Tuesday",18,SBS,125,15+ - Teens 15 or older,"Ji Sung, Uhm Ki Joon, Kwon Yu Ri, Oh Chang Seok, Uhm Hyun Kyung, Jung Dong Gyu",Thriller,8.7
+#59,While You Were Sleeping,2017," Wednesday, Thursday",32,SBS,126,15+ - Teens 15 or older,"Bae Suzy, Lee Jong Suk, Jung Hae In, Lee Sang Yeob, Hwang Young Hee, Shin Jae Ha",Fantasy,8.7
+#60,The Penthouse Season 2,2021," Friday, Saturday",13,SBS,127,15+ - Teens 15 or older,"Kim So Yeon, Eugene, Lee Ji Ah, Uhm Ki Joon, Yoon Jong Hoon, Shin Eun Kyung",Drama,8.7
+#61,Our Blues,2022," Saturday, Sunday",20,Netflix,128,15+ - Teens 15 or older,"Lee Byung Hun, Shin Min Ah, Cha Seung Won, Lee Jung Eun, Uhm Jung Hwa, Han Ji Min",Melodrama,8.7
+#62,Moon Lovers,2016," Monday, Tuesday",20,SBS,129,15+ - Teens 15 or older,"Lee Joon Gi, IU, Kang Ha Neul, Hong Jong Hyun, Nam Joo Hyuk, Byun Baek Hyun",Melodrama,8.7
+#63,Partners for Justice Season 2,2019," Monday, Tuesday",32,MBC,130,15+ - Teens 15 or older,"Jung Jae Young, Jung Yoo Mi, Oh Man Suk, Noh Min Woo, Kang Seung Hyun, Park Jun Gyu",Medical,8.7
+#64,Our Beloved Summer,2021," Monday, Tuesday",16,Netflix,131,15+ - Teens 15 or older,"Choi  Woo Shik, Kim Da Mi, Kim Sung Cheol, Roh Jeong Eui, Ahn Dong Goo, Park Jin Joo",Youth,8.7
+#65,Sweet Home,2020,Friday,10,Netflix,132,18+ Restricted (violence & profanity),"Song Kang, Lee Jin Wook, Lee Si Young, Lee Do Hyun, Kim Nam Hee, Go Min Si",Action,8.7
+#66,"Kill Me, Heal Me",2015," Wednesday, Thursday",20,MBC,133,15+ - Teens 15 or older,"Ji Sung, Hwang Jung Eum, Park Seo Joon, Kim Yoo Ri, Oh Min Suk, Kim Young Ae",Psychological,8.7
+#67,The King of Pigs,2022,Friday,12,TVING,134,18+ Restricted (violence & profanity),"Kim Dong Wook, Kim Sung Gyu, Chae Jung An, Choi Hyun Jin, Sim Hyun Seo, Lee Chan Yoo",Thriller,8.7
+#68,18 Again,2020," Monday, Tuesday",16,jTBC,135,15+ - Teens 15 or older,"Kim Ha Neul, Yoon Sang Hyun, Lee Do Hyun, Roh Jeong Eui, Ryeoun, Wi Ha Joon",Drama,8.7
+#69,The Fiery Priest,2019," Friday, Saturday",40,SBS,136,15+ - Teens 15 or older,"Kim Nam Gil, Kim Sung Kyun, Lee Ha Nee, Go Jun, Geum Sae Rok, Jeon Sung Woo",Action,8.7
+#70,My Name,2021,Friday,8,Netflix,137,18+ Restricted (violence & profanity),"Han So Hee, Park Hee Soon , Ahn Bo Hyun, Lee Hak Joo, Kim  Sang Ho, Chang Ryul",Action,8.7
+#71,Revenant,2023," Friday, Saturday",12,SBS,138,15+ - Teens 15 or older,"Kim Tae Ri, Oh Jung Se, Hong Kyung, Park Ji Young, Yang Hye Ji, Jin Seon Kyu",Thriller,8.7
+#72,Dr. Romantic,2016," Monday, Tuesday",20,SBS,139,15+ - Teens 15 or older,"Han Seok Kyu, Yoo Yeon Seok, Seo Hyun Jin, Choi Jin Ho, Yang Se Jong, Jang Hyuk Jin",Medical,8.7
+#73,A Business Proposal,2022," Monday, Tuesday",12,Netflix,140,15+ - Teens 15 or older,"Ahn Hyo Seop, Kim Se Jeong, Kim Min Gue, Seol In Ah, Lee Deok Hwa, Choi Byung Chan",Romance,8.7
+#74,Misaeng,2014," Friday, Saturday",20,tvN,141,15+ - Teens 15 or older,"Yim Si Wan, Lee Sung Min, Kang So Ra, Kang Ha Neul, Byun Yo Han, Kim Dae Myung",Business,8.7
+#75,Strong Woman Do Bong Soon,2017," Friday, Saturday",16,jTBC,142,15+ - Teens 15 or older,"Park Bo Young, Park Hyung Sik, Kim Ji Soo, Jun Suk Ho, Shim Hye Jin, Yoo Jae Myung",Comedy,8.7
+#76,Chicago Typewriter,2017," Friday, Saturday",16,tvN,143,15+ - Teens 15 or older,"Yoo Ah In, Im Soo Jung, Go Kyung Pyo, Kwak Shi Yang, Jo  Woo Jin, Oh Na Ra",Supernatural,8.7
+#77,Hot Stove League,2019," Friday, Saturday",16,SBS,144,15+ - Teens 15 or older,"Namkoong Min, Park Eun Bin, Cho Byeong Kyu, Oh Jung Se, Son Jong Hak, Kim Do Hyun",Sports,8.7
+#78,Strangers from Hell,2019," Saturday, Sunday",10,OCN,145,15+ - Teens 15 or older,"Yim Si Wan, Lee Dong Wook, Lee Jung Eun, Ahn Eun Jin, Park Jong Hwan, Lee Joong Ok",Thriller,8.7
+#79,Bloodhounds,2023,Friday,8,Netflix,146,18+ Restricted (violence & profanity),"Woo Do Hwan, Lee Sang Yi, Heo Joon Ho, Park Sung Woong, Kim Sae Ron, Jung Da Eun",Action,8.7
+#80,Live,2018," Saturday, Sunday",18,Netflix,147,15+ - Teens 15 or older,"Jung Yu Mi, Lee Kwang Soo, Bae Sung Woo, Bae Jong Ok, Sung Dong Il, Jang Hyun Sung",Romance,8.7
+#81,Jewel in the Palace,2003," Monday, Tuesday",54,MBC,148,13+ - Teens 13 or older,"Lee Young Ae, Ji Jin Hee, Hong Ri Na, Im Ho, Yang  Mi Kyung, Kyeon Mi Ri",Food,8.7
+#82,The First Responders,2022," Friday, Saturday",12,SBS,149,18+ Restricted (violence & profanity),"Kim Rae Won, Son Ho Jun, Gong Seung Yeon, Kang Seo Ha, Hwang Young Hee, Kang Gi Doong",Action,8.6
+#83,Tunnel,2017," Saturday, Sunday",16,OCN,150,15+ - Teens 15 or older,"Choi Jin Hyuk, Yoon Hyun Min, Lee Yoo Young, Jo Hee Bong, Kim Byung Chul, Kang Ki Young",Mystery,8.6
+#84,Descendants of the Sun,2016," Wednesday, Thursday",16,KBS2,151,15+ - Teens 15 or older,"Song Joong Ki, Song Hye Kyo, Jin Goo, Kim Ji Won, Lee Seung Joon, Seo Jung Yeon",Romance,8.6
+#85,My Perfect Stranger,2023," Monday, Tuesday",16,KBS2,152,15+ - Teens 15 or older,"Kim Dong Wook, Jin Ki Joo, Seo Ji Hye, Lee Won Jung, Lee Ji Hyun, Lee Kyu Hoe",Sci-Fi,8.6
+#86,Hotel del Luna,2019," Saturday, Sunday",16,tvN,153,15+ - Teens 15 or older,"IU, Yeo Jin Goo, Shin Jung Keun, Bae Hae Seon, P.O, Jo Hyun Chul",Fantasy,8.6
+#87,My Liberation Notes,2022," Saturday, Sunday",16,Netflix,154,15+ - Teens 15 or older,"Lee Min Ki, Kim Ji Won, Son Suk Ku, Lee El, Lee Ki Woo, Chun Ho Jin",Melodrama,8.6
+#88,Missing,2020," Saturday, Sunday",12,OCN,155,15+ - Teens 15 or older,"Go Soo, Heo Joon Ho, Ahn So Hee, Ha Joon, Seo Eun Soo, Song Geon Hee",Thriller,8.6
+#89,Law School,2021," Wednesday, Thursday",16,Netflix,156,15+ - Teens 15 or older,"Kim Myung Min, Kim Bum, Ryu Hye Young, Lee Jung Eun, Lee Soo Kyung, David Lee",Mystery,8.6
+#90,Children of Nobody,2018," Wednesday, Thursday",32,MBC,157,15+ - Teens 15 or older,"Kim Sun Ah, Lee Yi Kyung, Nam Gyu Ri, Cha Hak Yeon, Joo Seok Tae, Na Young Hee",Drama,8.6
+#91,Ghost Doctor,2022," Monday, Tuesday",16,tvN,158,15+ - Teens 15 or older,"Rain, Kim Bum, Uee, Son Na Eun, Sung Dong Il, Tae In Ho",Comedy,8.6
+#92,"It's Okay, That's Love",2014," Wednesday, Thursday",16,SBS,159,15+ - Teens 15 or older,"Zo In Sung, Gong Hyo Jin, Sung Dong Il, Lee Kwang Soo, Jin Kyung, Lee Sung Kyung",Psychological,8.6
+#93,Eulachacha Waikiki,2018," Monday, Tuesday",20,jTBC,160,15+ - Teens 15 or older,"Kim Jung Hyun, Lee Yi Kyung, Son Seung Won, Jung In Sun, Go Won Hee, Lee Joo Woo",Drama,8.6
+#94,Once Again,2020," Saturday, Sunday",100,KBS2,161,15+ - Teens 15 or older,"Chun Ho Jin, Cha Hwa Yun, Lee Jung Eun, Oh Dae Hwan, Lee Min Jung, Lee Sang Yeob",Comedy,8.6
+#95,Good Manager,2017," Wednesday, Thursday",20,KBS2,162,15+ - Teens 15 or older,"Namkoong Min, Nam Sang Mi, Lee Jun Ho, Jung Hye Sung, Kim Won Hae, Kim Kang Hyun",Business,8.6
+#96,Empress Ki,2013," Monday, Tuesday",51,MBC,163,15+ - Teens 15 or older,"Ha Ji Won, Ji Chang Wook, Joo Jin Mo, Baek Jin Hee, Jin Yi Han, Kim Seo Hyung",Historical,8.6
+#97,Love to Hate You,2023,Friday,10,Netflix,164,15+ - Teens 15 or older,"Kim Ok Bin, Yoo Teo, Kim Ji Hoon, Go Won Hee, Lee Joo Bin, Kim Sung Ryung",Law,8.6
+#98,Go Back Couple,2017," Friday, Saturday",12,KBS2,165,15+ - Teens 15 or older,"Jang Na Ra, Son Ho Jun, Heo Jung Min, Han Bo Reum, Jang Ki Yong, Go Bo Gyeol",Comedy,8.6
+#99,The Bridal Mask,2012," Wednesday, Thursday",28,KBS2,166,15+ - Teens 15 or older,"Joo Won, Jin Se Yeon, Park Ki Woong, Han Chae Ah, Shin Hyun Joon, Chun Ho Jin",Historical,8.6
+#100,My Father Is Strange,2017," Saturday, Sunday",52,KBS2,167,15+ - Teens 15 or older,"Kim Yeong Cheol, Kim Hae Sook, Ryu Soo Young, Lee Yoo Ri, Lee Joon, Jung So Min",Comedy,8.6
