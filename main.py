@@ -1,6 +1,6 @@
-from Menu import Display
-from graph import GraphMenu
+from Menu import Menu
+
 
 if __name__ == '__main__':
-    ui = Display()
+    ui = Menu()
     ui.run()
