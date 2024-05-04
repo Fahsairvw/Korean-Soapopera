@@ -1,12 +1,12 @@
 Welcome to Korean-SoapOpera
 
-Software Requirement:
+### Software Requirement:
 
 
 ### Data Source:
 [Top 100 Korean Drama](https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist)
 
-Project Document:
+### Project Document:
 * [Project Proposal](https://docs.google.com/document/d/1t5WXxLB_WXy8AcOeNuzp9gvMtbvNsFzG3P6L7bg06M4/edit#heading=h.brkgjcw3i7fl)
 * Development
 * UML diagrams of the design
