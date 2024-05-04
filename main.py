@@ -1,6 +1,6 @@
-from Menu import Menu
+from Menu import DisplayStory, GraphMenu
 
 
 if __name__ == '__main__':
-    ui = Menu()
+    ui = DisplayStory()
     ui.run()
