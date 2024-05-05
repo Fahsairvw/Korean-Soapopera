@@ -5,12 +5,17 @@ import matplotlib
 from matplotlib.figure import Figure
 matplotlib.use("TkAgg")
 
-
 df = pd.read_csv('top100_kdrama.csv')
 top_genre_df = df.copy()
 top_genre = ['Action', 'Comedy', 'Thriller', 'Life', 'Drama', 'Melodrama']
 top_genre_df = top_genre_df[(top_genre_df['Year'] >= 2015) & (top_genre_df['Genre'].isin(top_genre))]
 numerical_values = ['Year', 'No of Episode', 'Duration(minute)', 'Rating']
+
+
+def descriptive():
+    num = ['No of Episode', 'Duration(minute)', 'Rating']
+    info = df[num].describe()
+    return info
 
 
 class Storytelling:
@@ -23,13 +28,12 @@ class Storytelling:
         self.data.Rating.hist(color='hotpink')
         ax.set_title('Distribution of Rating', color='blueviolet')
         return figure
-
-
     def second_graph(self):
         figure, ax = plt.subplots(figsize=(6, 6))
         sns.boxplot(x='Rating', y='Genre', data=self.data, color='aqua')
         ax.set_title('Range of the rating display by each genre', color='cornflowerblue')
         return figure
+
     def third_graph(self):
         figure, ax = plt.subplots(figsize=(6, 6))
         ax.plot(self.year_rating.index, self.year_rating, 'skyblue')
@@ -56,9 +60,8 @@ class WhateverGraph:
         return fig
 
     def heat_map(self):
-        figure = Figure(figsize=(7, 6))
-        ax = figure.subplots()
-        sns.heatmap(self.num.corr(), square=True, cbar=False, ax=ax, linewidths=0.25,
+        figure, ax = plt.subplots(figsize=(7, 6))
+        sns.heatmap(self.num.corr(), square=True, cbar=False, linewidths=0.25,
                     linecolor=(0, 0, 0), cmap=sns.color_palette("coolwarm"),
                     annot=True)
         return figure
@@ -75,11 +78,6 @@ class WhateverGraph:
         ax.set_title(f'Histogram of {attribute}')
         return figure
 
-    @staticmethod
-    def descriptive():
-        num = ['No of Episode', 'Duration(minute)', 'Rating']
-        info = df[num].describe()
-        return info
 
 
 

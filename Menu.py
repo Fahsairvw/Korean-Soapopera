@@ -1,9 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from plot_graph import Storytelling, WhateverGraph
-from matplotlib.figure import Figure
-from tkinter.messagebox import showinfo
+from plot_graph import Storytelling, WhateverGraph, descriptive
 
 
 class DisplayStory(tk.Tk):
@@ -24,13 +22,19 @@ class DisplayStory(tk.Tk):
         menu.add_cascade(label='Menu', menu=file_menu)
         self.config(menu=menu)
 
+        """creating frame"""
         f = tk.Frame(self)
         f2 = tk.Frame(self)
+        f3 = tk.Frame(self)
+        f3.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
         f.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         f2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.canvas_frame = tk.Canvas(f, bg='black', highlightthickness=0)
         self.canvas_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
+        """creating label"""
+        label = tk.Label(f3, text='Story Telling', bg="#9bdeac", fg="#f7f5dd")
+        label.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
         """creating button"""
         first = tk.Button(f2, text='1', command=self.first)
         first.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
@@ -39,22 +43,22 @@ class DisplayStory(tk.Tk):
         third = tk.Button(f2, text='3', command=self.third)
         third.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
-    def display_graph(self, *args):
+    def display_graph(self):
         self.graph_canvas = FigureCanvasTkAgg(self.fig, master=self.canvas_frame)
         self.graph_canvas.draw()
         canvas_widget = self.graph_canvas.get_tk_widget()
         canvas_widget.grid(column=0, row=0, columnspan=3, sticky="news")
         self.fig = None
 
-    def first(self, *args):
+    def first(self):
         self.fig = self.graph.first_graph()
         self.display_graph()
 
-    def second(self, *args):
+    def second(self):
         self.fig = self.graph.second_graph()
         self.display_graph()
 
-    def third(self, *args):
+    def third(self):
         self.fig = self.graph.third_graph()
         self.display_graph()
 
@@ -72,8 +76,6 @@ class GraphMenu(tk.Tk):
         super().__init__()
         self.title('Korean SoapOpera')
         self.init_component()
-        self.numerical = ['No of Episode', 'Rating', 'Duration(minute)']
-        self.graph_type = ['pie graph', 'heat map', 'scatter plot']
         self.graph = WhateverGraph()
         self.fig = None
         self.attributes = None
@@ -113,8 +115,7 @@ class GraphMenu(tk.Tk):
 
         """creating button"""
         p_button = tk.Button(f, text='Plot', highlightthickness=0, command=self.display)
-        exit = tk.Button(f, text='Exit', command=self.destroy)
-
+        exit_butt = tk.Button(f, text='Exit', command=self.destroy)
 
         """creating combobox"""
         self.t_combo = ttk.Combobox(f)
@@ -134,10 +135,28 @@ class GraphMenu(tk.Tk):
         g_button.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.g_combo.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         p_button.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        exit.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        exit_butt.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
+        """Descriptive part"""
+        num = ['No of Episode', 'Duration(minute)', 'Rating']
+        info = descriptive()
+        tree = ttk.Treeview(frame2)
+        tree.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
+        tree['columns'] = num
+        tree.column("#0", width=150, minwidth=150)
+        tree.heading("#0", text="Statistic")
+
+        for col in num:
+            tree.column(col, width=100, minwidth=100, anchor=tk.E)
+            tree.heading(col, text=col)
+
+        for stat in info.index:
+            stat_node_id = tree.insert("", tk.END, text=stat.capitalize())
+            for col in num:
+                value = info.loc[stat, col]
+                tree.insert(stat_node_id, tk.END, text=f"{col}: {value:.2f}")
 
     def story_telling(self):
         self.destroy()
