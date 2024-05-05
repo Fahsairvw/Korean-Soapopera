@@ -28,6 +28,7 @@ class Storytelling:
         self.data.Rating.hist(color='hotpink')
         ax.set_title('Distribution of Rating', color='blueviolet')
         return figure
+
     def second_graph(self):
         figure, ax = plt.subplots(figsize=(6, 6))
         sns.boxplot(x='Rating', y='Genre', data=self.data, color='aqua')

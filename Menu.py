@@ -25,16 +25,11 @@ class DisplayStory(tk.Tk):
         """creating frame"""
         f = tk.Frame(self)
         f2 = tk.Frame(self)
-        f3 = tk.Frame(self)
-        f3.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
         f.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         f2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.canvas_frame = tk.Canvas(f, bg='black', highlightthickness=0)
         self.canvas_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
-        """creating label"""
-        label = tk.Label(f3, text='Story Telling', bg="#9bdeac", fg="#f7f5dd")
-        label.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
         """creating button"""
         first = tk.Button(f2, text='1', command=self.first)
         first.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
