@@ -22,13 +22,31 @@ class DisplayStory(tk.Tk):
         menu.add_cascade(label='Menu', menu=file_menu)
         self.config(menu=menu)
 
-        """creating frame"""
-        f = tk.Frame(self)
-        f2 = tk.Frame(self)
+        """create notebook for graph and descriptive"""
+        notebook = ttk.Notebook(self)
+        frame = ttk.Frame(notebook)
+        frame2 = ttk.Frame(notebook)
+        notebook.pack(pady=10, expand=True)
+
+        frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        frame2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        notebook.add(frame, text='Introduction')
+        notebook.add(frame2, text='Story Telling')
+
+        """create frame"""
+        f = tk.Frame(frame2)
+        f2 = tk.Frame(frame2)
         f.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         f2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.canvas_frame = tk.Canvas(f, bg='black', highlightthickness=0)
         self.canvas_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+
+        """create label"""
+        label = tk.Label(frame, text='Assuming you are an investor \ninterested in Korean drama industry, \n'
+                         'let’s see the graph for \nwhether or not this industry is good for investment', fg='white',
+                         bg='#A3D8FF')
+        label.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
         """creating button"""
         first = tk.Button(f2, text='1', command=self.first)
@@ -39,9 +57,9 @@ class DisplayStory(tk.Tk):
         third.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
     def display_graph(self):
-        self.graph_canvas = FigureCanvasTkAgg(self.fig, master=self.canvas_frame)
-        self.graph_canvas.draw()
-        canvas_widget = self.graph_canvas.get_tk_widget()
+        graph_canvas = FigureCanvasTkAgg(self.fig, master=self.canvas_frame)
+        graph_canvas.draw()
+        canvas_widget = graph_canvas.get_tk_widget()
         canvas_widget.grid(column=0, row=0, columnspan=3, sticky="news")
         self.fig = None
 
@@ -159,9 +177,9 @@ class GraphMenu(tk.Tk):
         ui.run()
 
     def display_graph(self, *args):
-        self.graph_canvas = FigureCanvasTkAgg(self.fig, master=self.canvas)
-        self.graph_canvas.draw()
-        canvas_widget = self.graph_canvas.get_tk_widget()
+        graph_canvas = FigureCanvasTkAgg(self.fig, master=self.canvas)
+        graph_canvas.draw()
+        canvas_widget = graph_canvas.get_tk_widget()
         canvas_widget.grid(column=0, row=0, columnspan=3, sticky="news")
         self.attributes = None
         self.fig = None
@@ -210,6 +228,3 @@ class GraphMenu(tk.Tk):
 
     def run(self):
         self.mainloop()
-
-
-
