@@ -188,26 +188,26 @@ class GraphMenu(tk.Tk):
         self.fig = None
 
     def graph_type(self, *args):
-        graph = self.t_combo.get()
-        if graph == 'pie':
+        graph_type = self.t_combo.get()
+        if graph_type == 'pie':
             self.g_combo['value'] = ['rating']
             self.attribute = self.g_combo.get()
             self.selected_attribute_pie(self.attribute)
-        if graph == 'histogram':
+        if graph_type == 'histogram':
             self.g_combo['value'] = ['Year', 'No of Episode', 'Duration(minute)', 'Rating']
             self.attribute = self.g_combo.get()
             self.selected_attribute_histogram(self.attribute)
-        if graph == 'scatter plot':
+        if graph_type == 'scatter plot':
             self.g_combo['value'] = ['Rating & Duration(minute)']
             self.attribute = self.g_combo.get()
             self.selected_attribute_scatterplot(self.attribute)
 
-        if graph == 'heatmap':
+        if graph_type == 'heatmap':
             self.g_combo['value'] = ['numerical data']
             self.attribute = self.g_combo.get()
             self.selected_attribute_heatmap(self.attribute)
 
-        if graph == 'bar':
+        if graph_type == 'bar':
             self.g_combo['value'] = ['Year', 'Genre', 'Network', 'Content Rating']
             self.attribute = self.g_combo.get()
             self.selected_attribute_bar(self.attribute)

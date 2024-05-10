@@ -8,6 +8,7 @@ matplotlib.use("TkAgg")
 def read_data():
     """read data from csv file"""
     df = pd.read_csv('top100_kdrama.csv')
+    df = df.replace(to_replace=['Netflix', 'Netflix,'], value='Netflix')
     top_genre_df = df.copy()
     top_genre = ['Action', 'Comedy', 'Thriller', 'Life', 'Drama', 'Melodrama']
     top_genre_df = top_genre_df[(top_genre_df['Year'] >= 2015)
