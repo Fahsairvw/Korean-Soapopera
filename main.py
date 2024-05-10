@@ -1,4 +1,4 @@
-from Menu import DisplayStory, GraphMenu
+from menu import DisplayStory, GraphMenu
 
 
 if __name__ == '__main__':
