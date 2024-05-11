@@ -32,7 +32,8 @@ class Storytelling:
 
     def first_graph(self):
         """plot first graph for story telling menu"""
-        figure, ax = plt.subplots(figsize=(6, 6))
+        figure, ax = plt.subplots(figsize=(3, 2))
+        plt.subplots_adjust(hspace=0.1)
         self.data.Rating.hist(color='hotpink')
         ax.set_title('Distribution of Rating', color='blueviolet')
         ax.set_ylabel('Frequency')
@@ -41,14 +42,16 @@ class Storytelling:
 
     def second_graph(self):
         """plot second graph for story telling menu"""
-        figure, ax = plt.subplots(figsize=(6, 6))
+        figure, ax = plt.subplots(figsize=(3, 2))
+        plt.subplots_adjust(hspace=0.1)
         sns.boxplot(x='Rating', y='Genre', data=self.data, color='aqua')
         ax.set_title('Range of the rating display by each genre', color='cornflowerblue')
         return figure
 
     def third_graph(self):
         """plot third graph for story telling menu"""
-        figure, ax = plt.subplots(figsize=(6, 6))
+        figure, ax = plt.subplots(figsize=(3, 2))
+        plt.subplots_adjust(hspace=0.1)
         ax.plot(self.year_rating.index, self.year_rating, 'skyblue')
         ax.set_title('Rating changing through year 2015 to 2023', color='violet')
         ax.set_ylabel('Rating')

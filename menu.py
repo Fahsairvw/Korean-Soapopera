@@ -28,7 +28,7 @@ class DisplayStory(tk.Tk):
         notebook = ttk.Notebook(self)
         frame = ttk.Frame(notebook)
         frame2 = ttk.Frame(notebook)
-        notebook.pack(pady=10, expand=True)
+        notebook.pack(pady=10, expand=True, side=tk.LEFT, fill=tk.BOTH)
 
         frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         frame2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
@@ -38,48 +38,61 @@ class DisplayStory(tk.Tk):
 
         f = tk.Frame(frame2)
         f2 = tk.Frame(frame2)
-        f.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        f2.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        self.canvas_frame = tk.Canvas(f, bg='black', highlightthickness=0)
-        self.canvas_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+        f2.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+        f.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+
+        self.frame2 = tk.Frame(f)
+        self.frame2.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+        self.frame = tk.Frame(f)
+        self.frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+
+        self.first_butt = tk.Button(f2, text='1', command=self.first)
+        self.first_butt.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.second_butt = tk.Button(f2, text='2', command=self.second)
+        self.second_butt.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.third_butt = tk.Button(f2, text='3', command=self.third)
+        self.third_butt.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+
+        self.canvas_frame1 = tk.Canvas(self.frame, bg='black', highlightthickness=0)
+        self.canvas_frame1.pack(side=tk.TOP, fill=tk.BOTH, expand=True, ipady=5, ipadx=30)
+
+        self.canvas_frame2 = tk.Canvas(self.frame, bg='black', highlightthickness=0)
+        self.canvas_frame2.pack(side=tk.TOP, fill=tk.BOTH, expand=True, ipady=5,  ipadx=30)
+
+        self.canvas_frame3 = tk.Canvas(self.frame, bg='black', highlightthickness=0)
+        self.canvas_frame3.pack(side=tk.TOP, fill=tk.BOTH, expand=True, ipady=5,  ipadx=30)
 
         label = tk.Label(frame,
                          text='Assuming you are an investor '
                               '\ninterested in Korean drama industry, '
                               '\n''let’s see the graph for '
                               '\nwhether or not this industry is good for investment'
-                         , fg='white', bg='#A3D8FF')
+                         , fg='white', bg='#A3D8FF', font=("Helvetica", 25))
         label.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
-        first = tk.Button(f2, text='1', command=self.first)
-        first.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-        second = tk.Button(f2, text='2', command=self.second)
-        second.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-        third = tk.Button(f2, text='3', command=self.third)
-        third.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-
-    def display_graph(self):
+    def display_graph(self, frame):
         """display graph on canvas"""
-        graph_canvas = FigureCanvasTkAgg(self.fig, master=self.canvas_frame)
+        graph_canvas = FigureCanvasTkAgg(self.fig, master=frame)
         graph_canvas.draw()
         canvas_widget = graph_canvas.get_tk_widget()
-        canvas_widget.grid(column=0, row=0, columnspan=3, sticky="news")
+        canvas_widget.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
         self.fig = None
 
     def first(self):
         """call the function to display first graph"""
         self.fig = self.graph.first_graph()
-        self.display_graph()
+        self.display_graph(self.canvas_frame1)
 
     def second(self):
         """call the function to display second graph"""
         self.fig = self.graph.second_graph()
-        self.display_graph()
+        self.display_graph(self.canvas_frame2)
 
     def third(self):
         """call the function to display third graph"""
         self.fig = self.graph.third_graph()
-        self.display_graph()
+        self.display_graph(self.canvas_frame3)
 
     def graph_menu(self):
         """display graph menu"""

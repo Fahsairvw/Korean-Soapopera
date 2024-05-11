@@ -16,12 +16,36 @@ which are Story-Telling and Graph menu.
 * UML diagrams of the design
 
 ### Installation
-* Clone the repository
+Clone the repository
+
 ``` git clone https://github.com/Fahsairvw/Korean-Soapopera.git ```
+
+Go to Directory
+
+``` cd Korean-Soapopera ```
+
 
 
 ### Step how to run the code
-1. User starts the virtual in the virtual env.
-* python 3 main.py runserver
+1. User starts the virtual in the virtual env. 
+
+   ``` python -m venv venv ```
+2. Activate the virtual env on Linux and MacOS
+
+   ```source env/bin/activate```
+ 
+    Or, on MS Windows:
+
+   ```env\Scripts\activate```
+3. Install requirement
+ 
+   ```pip install -r requirements.txt```
+4. Run program
+   
+   ```python main.py```
+
+
+
+
 
 
