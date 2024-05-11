@@ -11,9 +11,7 @@ which are Story-Telling and Graph menu.
 [Top 100 Korean Drama](https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist)
 
 ### Project Document:
-* [Project Proposal](https://docs.google.com/document/d/1t5WXxLB_WXy8AcOeNuzp9gvMtbvNsFzG3P6L7bg06M4/edit#heading=h.brkgjcw3i7fl)
-* [Development](https://github.com/Fahsairvw/Korean-Soapopera/wiki/Development-Plan)
-* UML diagrams of the design
+[Wiki](https://github.com/Fahsairvw/Korean-Soapopera/wiki)
 
 ### Installation
 Clone the repository
@@ -43,6 +41,17 @@ Go to Directory
 4. Run program
    
    ```python main.py```
+
+### Example UI
+Story telling page
+
+![Logo](/screen%20shot/StoryTelling.png)
+
+Graph Menu
+
+![Logo](/screen%20shot/graph.png)
+
+
 
 
 
