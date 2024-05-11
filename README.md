@@ -30,11 +30,11 @@ Go to Directory
    ``` python -m venv venv ```
 2. Activate the virtual env on Linux and MacOS
 
-   ```source env/bin/activate```
+   ```source venv/bin/activate ```
  
     Or, on MS Windows:
 
-   ```env\Scripts\activate```
+   ```.\venv\Scripts\activate```
 3. Install requirement
  
    ```pip install -r requirements.txt```
